@@ -37,6 +37,7 @@
 .sidebarListItem.active,
 .sidebarListItem:hover {
   background-color: #555;
+  color: white;
 }
 
 .sidebarIcon {
