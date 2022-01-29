@@ -50,3 +50,24 @@ export const userData = [
         
       },
   ];
+
+  export const users = [
+    { id: 1, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country: "Ecuador", transaction:"$120"},
+    { id: 2, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country: "Ecuador", transaction:"$120"},
+    { id: 3, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country:"Usa", transaction:"$120"},
+    { id: 4, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country: "Ecuador", transaction:"$120"},
+    { id: 5, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country: "Colombia", transaction:"$120"},
+    { id: 6, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country: "Ecuador", transaction:"$120"},
+    { id: 7, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country: "Ecuador", transaction:"$120"},
+    { id: 8, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country: "Ecuador", transaction:"$120"},
+    { id: 9, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country: "Ecuador", transaction:"$120"},
+    { id: 10, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country:"Usa", transaction:"$120"},
+    { id: 11, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country: "Ecuador", transaction:"$120"},
+    { id: 12, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country: "Colombia", transaction:"$120"},
+    { id: 14, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country: "Ecuador", transaction:"$120"},
+    { id: 15, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country: "Ecuador", transaction:"$120"},
+    { id: 16, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country: "Ecuador", transaction:"$120"},
+    { id: 17, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country: "Ecuador", transaction:"$120"},
+    { id: 18, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country:"Usa", transaction:"$120"},
+    
+  ];

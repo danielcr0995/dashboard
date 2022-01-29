@@ -1,0 +1,48 @@
+.user-list {
+  flex: 4;
+  margin: 10px 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+  -webkit-box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid rgb(112, 112, 112);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0 5px; */
+  padding: 5px;
+  /* margin-right: 10px; */
+  margin: 0 10px 0 5px;
+}
+
+.actionButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.userEditIcon {
+  margin-right: 10px;
+  color: rgba(103, 103, 197, 0.733);
+  cursor: pointer;
+  scale: 1.1;
+}
+.userEditIcon:hover,
+.userDeleteIcon:hover {
+  transform: scale(1.2);
+}
+
+.userDeleteIcon {
+  margin-left: 10px;
+  color: rgb(209, 4, 4);
+  cursor: pointer;
+}
