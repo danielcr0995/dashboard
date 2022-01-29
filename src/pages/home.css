@@ -1,3 +1,9 @@
 .home {
   flex: 4;
 }
+
+.homeWidjets {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}

@@ -1,0 +1,101 @@
+.widjetLg {
+  flex: 3;
+  margin: 10px 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+  -webkit-box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+}
+
+.widjetLgTitle {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.widgetLgTable {
+  padding-left: 0;
+  width: 100%;
+  /* text-align: center; */
+  margin-top: 10px;
+  border-spacing: 20px;
+}
+
+.widjetLgTh {
+  text-align: left;
+}
+
+.widjetLgTr {
+  margin-bottom: 20px;
+}
+.userWidjetImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid rgb(112, 112, 112);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0 5px; */
+  padding: 5px;
+  /* margin-right: 10px; */
+  margin: 0 10px 5px 5px;
+}
+
+.userWidjetContent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.widjetLgButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background-color: #eeeef7;
+  color: #555;
+  cursor: pointer;
+  /* margin: auto; */
+}
+
+.widjetLgButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background-color: #eeeef7;
+  text-align: center;
+  /* margin: auto; */
+
+  cursor: pointer;
+}
+.widjetLgButton.Confirmed {
+  color: forestgreen;
+}
+.widjetLgButton.Canceled {
+  color: rgb(145, 0, 0);
+}
+.widjetLgButton.Pending {
+  color: rgb(60, 60, 224);
+}
+
+.widjetLgUser {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.widjetLgUsername {
+  font-weight: 600;
+}
+
+.widgetLgIcon {
+  font-size: 1rem !important;
+}

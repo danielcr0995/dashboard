@@ -10,7 +10,7 @@ export const userData = [
         
       },{
         name: 'Mar',
-        "active user": 5000,
+        "active user": 4500,
         
       },{
         name: 'Apr',
@@ -42,7 +42,7 @@ export const userData = [
         
       },{
         name: 'Nov',
-        "active user": 6000,
+        "active user": 5500,
         
       },{
         name: 'Dec',

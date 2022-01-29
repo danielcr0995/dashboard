@@ -1,0 +1,75 @@
+.widjetSm {
+  flex: 2;
+  margin: 10px 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+  -webkit-box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+}
+
+.widjetSmTitle {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.widjetSmList {
+  padding-left: 0;
+}
+
+.widjetSmListItem {
+  display: flex;
+  align-items: center;
+}
+
+.userWidjetImg {
+  width: 40px !important;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid rgb(112, 112, 112);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 5px;
+  margin: 0 10px 0 0;
+}
+
+.userWidjetContent {
+  /* width: ; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.widjetSmButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background-color: #eeeef7;
+  color: #555;
+  cursor: pointer;
+}
+
+.widjetSmUser {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.widjetSmUsername {
+  font-weight: 700;
+}
+
+.widjetSmCountry {
+  font-size: 14px;
+  color: gray;
+  font-weight: 300;
+}
+
+.widgetSmIcon {
+  font-size: 1rem !important;
+}
