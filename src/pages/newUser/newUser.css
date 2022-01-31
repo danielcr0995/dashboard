@@ -1,0 +1,65 @@
+.newUser {
+  flex: 4;
+  margin: 10px 20px;
+  padding: 20px;
+}
+
+.newUserContainer {
+  display: flex;
+  margin: 10px 0;
+
+  flex: 1;
+  margin: 10px 0 10px 0;
+  padding: 20px;
+  box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+  -webkit-box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+}
+
+.newUsernameUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.newUsernameUpdateItem > label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.newUserUpdateInput {
+  border: none;
+  width: 200%;
+  border-bottom: 1px solid rgb(83, 83, 83);
+  height: 20px;
+  padding: 10px;
+}
+
+.newUserSelect {
+  /* width: 200%;
+  border: 1px solid rgb(83, 83, 83);
+  height: 20px;*/
+  padding: 10px;
+  border: 1px solid rgb(83, 83, 83);
+
+  background-color: white;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.newUserSaveButton {
+  width: 100px;
+  font-weight: 500;
+  margin: 30px 10px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(79, 79, 167);
+  color: beige;
+}
+
+.userAddButton:hover,
+.userUpdateButton:hover {
+  transform: scale(1.1);
+}
