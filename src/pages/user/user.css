@@ -1,0 +1,171 @@
+.user {
+  flex: 4;
+  margin: 10px 20px;
+  padding: 20px;
+  /* border-radius: 10px;
+  box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+  -webkit-box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21); */
+}
+
+.userTitleContainer {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userAddButton,
+.userUpdateButton {
+  width: 100px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(79, 79, 167);
+  color: beige;
+}
+
+.userAddButton:hover,
+.userUpdateButton:hover {
+  transform: scale(1.1);
+}
+
+.userContainer {
+  display: flex;
+  margin: 10px;
+}
+
+.userShow {
+  flex: 1;
+  margin: 10px 0 10px 0;
+  padding: 20px;
+  box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+  -webkit-box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+}
+
+.userShowTop {
+  display: flex;
+  align-items: center;
+}
+
+.userShowTopTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.userShowName {
+  font-weight: 700;
+  font-size: 20px;
+}
+.userShowCountry {
+  font-weight: 300;
+}
+.userAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid rgb(112, 112, 112);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0 5px; */
+  padding: 5px;
+  /* margin-right: 10px; */
+  margin: 0 10px 0 5px;
+}
+
+.userUpdate {
+  flex: 2;
+  margin: 10px 0 10px 10px;
+  padding: 20px;
+  box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+  -webkit-box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 1px 1px 19px -7px rgba(0, 0, 0, 0.21);
+}
+.userShowBottom {
+  margin: 10px;
+}
+.userShowBottomTitle {
+  font-weight: 500;
+
+  font-size: 14px;
+  margin: 20px 10px;
+  color: rgb(151, 146, 146);
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.userShowIcon {
+  margin-right: 10px;
+}
+
+.userUpdateTitle {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.userUpdateForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.usernameUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.usernameUpdateItem > label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.userUpdateInput {
+  border: none;
+  width: 200%;
+  border-bottom: 1px solid rgb(83, 83, 83);
+  height: 20px;
+}
+
+.updateRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userUpdateUpload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userUpdateIcon {
+  cursor: pointer;
+}
+.userAvatarBig {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid rgb(112, 112, 112);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0 5px; */
+  padding: 5px;
+  /* margin-right: 10px; */
+  margin: 0 20px 10px 20px;
+  font-size: 40px;
+  color: rgb(194, 194, 194);
+}
+
+.userUpdateButton {
+  background-color: rgb(84, 84, 184);
+}
