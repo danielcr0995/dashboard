@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="home">
         <FeatureInfo/>
-        <Chart title="User Analytics" data={userData} dataKey="active user" grid/>
+        <Chart title="User Analytics" data={userData} dataKey="active user" grid aspectx={4} aspecty={1} className="productSalesChart"/>
         <div className='homeWidjets'>
             <WidjetSm/>
             <WidjetLg/>

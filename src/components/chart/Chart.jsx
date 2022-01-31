@@ -4,11 +4,11 @@ import "./chart.css"
 
 
 
-export default function Chart({title, data, dataKey, grid}) {
+export default function Chart({title, data, dataKey, grid, aspectx,aspecty}) {
   return (
     <div className='chart'>
         <h3 className='chartTitle'> {title}</h3>
-        <ResponsiveContainer width="100%" aspect={4 / 1} 
+        <ResponsiveContainer width="100%" aspect={aspectx / aspecty} 
         >
 
             <LineChart data={data}>
