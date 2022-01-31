@@ -10,6 +10,7 @@
 
 .userTitleContainer {
   /* width: 100%; */
+  /* margin: 0 10px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,7 +35,7 @@
 
 .userContainer {
   display: flex;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .userShow {
