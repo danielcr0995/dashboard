@@ -27,7 +27,7 @@ export default function Topbar() {
 
                     <SettingsIcon/>
                 </div>
-                <div className='user'>DC</div>
+                <div className='userTopbar'>DC</div>
                  
             </div>
             

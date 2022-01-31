@@ -32,6 +32,7 @@ export default function UserList() {
         renderCell:  (params)=> {
             return (
                 <div className='actionButtons'>
+                    
                     <Link to={"/users/"+params.id}>                                                              
                       <EditOutlined className='userEditIcon'/>
                     </Link>
@@ -45,17 +46,28 @@ export default function UserList() {
   ];
 
   return (
-    <div className='user-list'>
-        <DataGrid
-        rows={data}
-        disableSelectionOnClick
-        columns={columns}
-        pageSize={14}
-        rowsPerPageOptions={[5]}
-        checkboxSelection
-      />
+    
+
       
-    </div> 
+    <div className='user-list'>
+        <div className="userTitleContainer">
+          <h1 className="userTitle">Users</h1>
+          <Link to="/users/newUser">
+              <button className="userAddButton">Create</button>
+          </Link>
+        </div>
+        
+          <DataGrid
+          rows={data}
+          disableSelectionOnClick
+          columns={columns}
+          pageSize={14}
+          rowsPerPageOptions={[5]}
+          checkboxSelection
+        />
+        
+      </div> 
+    
   );
 }
 
