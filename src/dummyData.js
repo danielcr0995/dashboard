@@ -71,3 +71,102 @@ export const userData = [
     { id: 18, name: 'Jon Snow', avatar: "JS", email: "jonsnow@gmail.com", country:"Usa", transaction:"$120"},
     
   ];
+
+  export const products=[
+    {
+        id:1,
+        location:"Galapagos",
+        name:"Tuneles",
+        island: "Isabela",
+        type:"Day Tour",
+        shortDescription: "Tour in Isabela island",
+        longDescription:"Tour in Isabela island",
+        duration:"5 hours",
+        price: 100,
+        img:"https://cloudfront-us-east-1.images.arcpublishing.com/eluniverso/E3BIJDZQWJG4VM5R7JTG7MBAV4.jpg",
+        sold:10
+    },
+    {
+      id:2,
+      location:"Galapagos",
+      name:"Tuneles",
+      island: "Isabela",
+      type:"Day Tour",
+      shortDescription: "Tour in Isabela island",
+      longDescription:"Tour in Isabela island",
+      duration:"5 hours",
+      price: 100,
+      img:["1.jpg","2.jpg","3.jpg"],
+      sold:10
+    },
+    {
+      id:3,
+      location:"Galapagos",
+      name:"Tuneles",
+      island: "Isabela",
+      type:"Day Tour",
+      shortDescription: "Tour in Isabela island",
+      longDescription:"Tour in Isabela island",
+      duration:"5 hours",
+      price: 100,
+      img:["1.jpg","2.jpg","3.jpg"],
+      sold:10
+    },
+    {
+      id:4,
+      location:"Galapagos",
+      name:"Tuneles",
+      island: "Isabela",
+      type:"Day Tour",
+      shortDescription: "Tour in Isabela island",
+      longDescription:"Tour in Isabela island",
+      duration:"5 hours",
+      price: 100,
+      img:["1.jpg","2.jpg","3.jpg"],
+      sold:10
+    },
+    {
+      id:5,
+      location:"Galapagos",
+      name:"Tuneles",
+      island: "Isabela",
+      type:"Day Tour",
+      shortDescription: "Tour in Isabela island",
+      longDescription:"Tour in Isabela island",
+      duration:"5 hours",
+      price: 100,
+      img:["1.jpg","2.jpg","3.jpg"],
+      sold:10
+    },
+    {
+      id:6,
+      location:"Galapagos",
+      name:"Tuneles",
+      island: "Isabela",
+      type:"Day Tour",
+      shortDescription: "Tour in Isabela island",
+      longDescription:"Tour in Isabela island",
+      duration:"5 hours",
+      price: 100,
+      img:["1.jpg","2.jpg","3.jpg"],
+      sold:10
+    },
+    {
+      id:7,
+      location:"Galapagos",
+      name:"Tuneles",
+      island: "Isabela",
+      type:"Day Tour",
+      shortDescription: "Tour in Isabela island",
+      longDescription:"Tour in Isabela island",
+      duration:"5 hours",
+      price: 100,
+      img:["1.jpg","2.jpg","3.jpg"],
+      sold:10
+    },
+
+    
+]
+
+    
+  
