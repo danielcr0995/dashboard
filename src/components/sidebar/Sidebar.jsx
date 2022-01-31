@@ -12,18 +12,23 @@ import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutline
 import ForumOutlinedIcon from '@mui/icons-material/ForumOutlined';
 import WorkOutlineOutlinedIcon from '@mui/icons-material/WorkOutlineOutlined';
 import ReportGmailerrorredOutlinedIcon from '@mui/icons-material/ReportGmailerrorredOutlined';
+import { Link } from 'react-router-dom';
 
 export default function Sidebar() {
   return (
   <div className='sidebar'>
       <div className='sidebarWrapper'>
         <div className='sidebarMenu'>
+            
             <h3 className='sidebarTitle'>Dashboard</h3>
+        
             <ul className='sidebarList'>
-                <li className='sidebarListItem active'>
-                    <LineStyleOutlinedIcon className="sidebarIcon"/>
-                    Menu
-                </li>
+                <Link to="/" className="link">
+                    <li className='sidebarListItem active'>
+                        <LineStyleOutlinedIcon className="sidebarIcon"/>
+                        Menu
+                    </li>
+                </Link>
                 <li className='sidebarListItem'>
                     <TimelineOutlinedIcon className="sidebarIcon"/>
                     Analytics
@@ -36,14 +41,18 @@ export default function Sidebar() {
             </ul>
             <h3 className='sidebarTitle'>Quick Menu</h3>
             <ul className='sidebarList'>
-                <li className='sidebarListItem '>
-                    <PersonOutlineOutlinedIcon className="sidebarIcon"/>
-                    User
-                </li>
-                <li className='sidebarListItem'>
-                    <StorefrontOutlinedIcon className="sidebarIcon"/>
-                    Products
-                </li>
+                <Link to="/users" className="link">
+                    <li className='sidebarListItem '>
+                        <PersonOutlineOutlinedIcon className="sidebarIcon"/>
+                        User
+                    </li>
+                </Link>
+                <Link to="/products" className="link">
+                    <li className='sidebarListItem'>
+                        <StorefrontOutlinedIcon className="sidebarIcon"/>
+                        Products
+                    </li>
+                </Link>
                 <li className='sidebarListItem'>
                     <AttachMoneyOutlinedIcon className="sidebarIcon"/>
                     Transactions
