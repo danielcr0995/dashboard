@@ -57,3 +57,16 @@
   /* margin-right: 10px; */
   margin: 0 50px 10px 20px;
 }
+
+.productUpdateUpload {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.newProductUpdateInputLD {
+  width: 200%;
+  border: 1px solid rgb(83, 83, 83);
+  border-radius: 5px;
+  padding: 10px;
+}
